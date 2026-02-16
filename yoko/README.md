@@ -4,7 +4,7 @@ Yoko helps to manage daily tasks, daily humor, important dates e recurring actio
 
 ## Prototype
 
-![Protótipo](images/prototype.png)
+![Protótipo](./assets/imgs/prototype.png)
 
 ## Requirements
 
@@ -50,7 +50,7 @@ Yoko helps to manage daily tasks, daily humor, important dates e recurring actio
 
 ## CLI modelling
 
-![Protótipo CLI](images/cli-prototype.png)
+![Protótipo CLI](./assets/imgs/cli-prototype.png)
 
 ### Task status
 > Foi criado um map para registro dos status disponíveis, respectivamente com suas descrições e cores.
