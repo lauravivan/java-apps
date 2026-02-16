@@ -1,17 +1,14 @@
-# Desenvolvimento de um Aplicativo de Gerenciamento Temporal Multifuncional
+# Yoko: a self-management app 
 
-Os arquivos aqui apresentados irão compor os exemplos (2. Elaboração de exemplos) junto com o crud (3. Desenvolvimento de um CRUD) utilizando o contexto do trabalho final da disciplina.
+Yoko helps to manage daily tasks, daily humor, important dates e recurring actions, where users can effectively manage their time.
 
-## Explicação do tema
-
-> Este tema propõe a implementação de um aplicativo que consiste no gerenciamento de tarefas diárias, humor diário, datas importantes e ações recorrentes, para auxiliar os usuários no gerenciamento eficaz do tempo.
-> Segue abaixo imagem do protótipo realizado por mim para elaboração da tarefa:
+## Prototype
 
 ![Protótipo](images/prototype.png)
 
-## Requisitos
+## Requirements
 
-> Por meio dos requisitos foi possível verificar que as entidades compartilhavam muitas propriedades e métodos e portanto foi criada a classe Entity encontrada na pasta abstractClasses (abstract pois essa classe não precisa ser instanciada, ela servirá somente para o uso de herança das demais classes).
+> The app entities share a lot in common, that's why abstract Base class exists.
 
 - ImportantDate
   - An important date has an id;
@@ -51,7 +48,7 @@ Os arquivos aqui apresentados irão compor os exemplos (2. Elaboração de exemp
   - An app can register multiple recurring actions;
   - An app can register user choices (configuration);
 
-## Modelagem da CLI
+## CLI modelling
 
 ![Protótipo CLI](images/cli-prototype.png)
 
